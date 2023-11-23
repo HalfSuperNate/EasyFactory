@@ -3,6 +3,8 @@ pragma solidity ^0.8.20;
 
 import "./EasyCollectionProxy.sol";
 
+//placed in EasyFactoProx.sol
+
 contract EasyFactory {
     address[] public deployedProxies;
 
