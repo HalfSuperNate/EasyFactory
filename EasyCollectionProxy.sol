@@ -3,6 +3,8 @@ pragma solidity ^0.8.20;
 
 import "./EasyLibrary.sol";
 
+//placed in EasyFactoProx.sol
+
 contract EasyCollectionProxy {
     address public owner;
     address public implementation;
